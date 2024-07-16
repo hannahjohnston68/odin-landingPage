@@ -117,10 +117,54 @@ body {
 .quote .container {
     background-color: #e5e7eb;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center; 
     height: 400px;
-    padding-right: 100px;
-    padding-left: 100px;
-
+    padding-right: 375px;
+    padding-left: 375px;
+    gap: 10px; 
+    flex-direction: column;
+}
+.quote .text {
+   color: #4a5360;
+   font-weight:lighter;
+   font-style: italic;
+   font-size: 26px; 
+   width: 600px;
+}
+.author {
+    color: black;
+    font-size: 17px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+/* CTA */
+.CTA {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CTA .container .banner {
+    background-color: #3882F6;
+    width: 850px;
+    height: 125px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.CTA .container .banner .button button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+/* footer */
+.footer {
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
