@@ -74,3 +74,53 @@ body {
     color: #F9FAF8;
     font-size: 18px; 
 }
+
+/* random information */
+.information .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 40px;
+}
+.information h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+.information .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 250px;
+    padding-left: 250px;
+    width: 800px;
+    padding-bottom: 100px;
+}
+.information .box-container {
+    width: 150px; 
+}
+.information .box-container .box {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px; 
+    border-width: 5px; 
+    border-style: solid;
+    border-color:#3882F6;
+    align-items: center; 
+}
+.information p {
+    color: #1f2937; 
+    text-align: center;
+}
+/* quote */
+.quote .container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 400px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
